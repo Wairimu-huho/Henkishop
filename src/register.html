@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3cf439782a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container-nav">
+            <nav class="relative w-full h-28 mx-auto bg-black">
+                <div class="logo-container">
+                    <img src="images/logo-img.png" class="logo">
+                </div>
+                <div class="nav-top">
+                    <div class="top-content">
+                        <div></div> <!-- Spacer for alignment -->
+                        <div class="auth-buttons">
+                            <a href="register.html"
+                                class="auth-button flex items-center justify-center w-8 h-8 text-white w bg-yellow-400">
+                                <i class="fas fa-user text-lg "></i>
+                            </a>
+                            <span class="font-semibold text-white">Login</span>
+                            <a href="#"
+                                class="auth-button flex items-center justify-center text-white w-8 h-8 bg-yellow-400">
+                                <i class="fas fa-user text-lg "></i>
+                            </a>
+                            <span class="font-semibold text-white">Cart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-separator"></div>
+                <div class="nav-bottom">
+                    <div class="bottom-content">
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li class="dropdown">
+                                <a class="dropbtn" href="services.html" target="_blank">Services</a>
+                                <div class="dropdown-content">
+                                    <a href="services.html#computer-container">Computer Gadgets</a>
+                                    <a href="services.html#electronics-container">Electronics</a>
+                                    <a href="services.html#webhost-container">Web Hosting</a>
+                                    <a href="services.html#construction-container">Construction Supplies</a>
+                                    <a href="services.html#repairs-container">Repairs and Maintainance</a>
+                                    <a href="services.html#webhost-container">Web Hosting</a>
+                                </div>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+</body>
+</html>
